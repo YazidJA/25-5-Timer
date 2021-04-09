@@ -13,9 +13,10 @@
 }
 
 table {
+  user-select: none;
   font-family: "Digital";
   text-align: center;
-  font-size: 5vmin;
+  font-size: 8vmin;
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -24,21 +25,16 @@ table {
   background-color: #1b2021;
 }
 
-
 td {
   color: #eac8af;
   width: 33vw;
-  border: 10px solid #5f939a;
   vertical-align: middle;
+  border: 1px solid #5f939a;
 }
 
-.operation {
-  background-color: #eac8af;
-  color: #1b2021;
-}
-
-td:hover {
+.interactive:hover {
   color: #5f939a;
+  cursor: pointer;
 }
 
 #display {
