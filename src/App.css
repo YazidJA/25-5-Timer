@@ -1,38 +1,58 @@
-.App {
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+
+table {
+  font-family: "Digital";
   text-align: center;
+  font-size: 5vmin;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #1b2021;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+td {
+  color: #eac8af;
+  width: 33vw;
+  border: 10px solid #5f939a;
+  vertical-align: middle;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.operation {
+  background-color: #eac8af;
+  color: #1b2021;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+td:hover {
+  color: #5f939a;
 }
 
-.App-link {
-  color: #61dafb;
+#display {
+  text-align: right;
+  max-height: 20vh;
+  height: 20vh;
+  min-height: 20vh;
+  width: 90vw;
+  max-width: 90vw;
+  min-width: 90vw;
+  word-break: break-all;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* #d8ac9c
+#1b2021
+#5f939a
+#eac8af */
